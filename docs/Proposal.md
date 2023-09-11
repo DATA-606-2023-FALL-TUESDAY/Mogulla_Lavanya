@@ -27,6 +27,8 @@ The model also assesses rice grain quality by analyzing size, color, and conditi
 
      **Dataset Link** - [Rice Data]
 - **Data size** -  267.35 MB
-- **Data shape** - The dataset (1) has 75K images including 15K pieces from each rice variety. The dataset (2) has 12 morphological, 4 shape and 90 color features.
+- **Data shape** - There are two files
+
+   The dataset (1) has 75K images including 15K pieces from each rice variety and dataset (2) has 12 morphological, 4 shape and 90 color features.
 
 [Rice Data]: https://www.kaggle.com/datasets/muratkokludataset/rice-image-dataset
