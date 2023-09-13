@@ -27,8 +27,12 @@ The model also assesses rice grain quality by analyzing size, color, and conditi
 
      **Dataset Link** - [Rice Data]
 - **Data size** -  267.35 MB
-- **Data shape** - There are two files
+- **Number of Images** - 75k
+- **Number of Classes** - 5
+- **Class Labels** - Arborio, Basmati, Ipsala, Jasmine and Karacadag
+  
+   Each class has equal data of 15k images.
+  
 
-   The dataset (1) has 75K images including 15K pieces from each rice variety and dataset (2) has 12 morphological, 4 shape and 90 color features.
-
+   
 [Rice Data]: https://www.kaggle.com/datasets/muratkokludataset/rice-image-dataset
