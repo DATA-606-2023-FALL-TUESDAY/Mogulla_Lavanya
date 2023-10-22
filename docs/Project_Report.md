@@ -32,7 +32,25 @@ The model also assesses rice grain quality by analyzing size, color, and conditi
 - **Class Labels** - Arborio, Basmati, Ipsala, Jasmine and Karacadag
   
    Each class has equal data of 15k images.
-  
+
+
+  **Samples of Rice**
+
+<img src="https://github.com/DATA-606-2023-FALL-TUESDAY/Mogulla_Lavanya/blob/main/data/Rice%20sample.png">
 
    
 [Rice Data]: https://www.kaggle.com/datasets/muratkokludataset/rice-image-dataset
+
+
+## 4. Exploratory Data Analysis (EDA)
+
+**Data Visualization**
+
+ - Utilized two popular plotting libraries, Matplotlib and Plotly Express, to display and inspect samples from each category in the dataset.
+
+<img src="https://github.com/DATA-606-2023-FALL-TUESDAY/Mogulla_Lavanya/blob/main/data/newplot.png">
+
+**Data Augmentation**
+
+- This is a technique used to artificially increase the size of a dataset by creating modified versions of existing data.
+- Enhanced the dataset using TensorFlow's image tools also applied several modifications to the original images, like sharpening, rotating, resizing, cropping. These changes can help the neural network generalize better when training.
