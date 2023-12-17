@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Rice Classification
+        </title>
+        <style>
+            form{
+                border-style: solid;
+                padding: 10px;
+                border-radius: 10px;
+                border-color: darkslategrey;
+                border-left-width: 3px;
+                border-right-width: 3px;
+                border-top-width: 3px;
+                border-bottom-width: 3px;
+                width: 33%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            h1 {text-align: center;
+            color: black;}
+            img{
+                display: block;
+            }
+            label {
+                font-size: x-large;
+                color:black;
+            }
+            .text {
+                 font-size: 20px;
+                 padding-left: 50px;
+                 padding-top: 0px;
+            }
+            body { 
+                background-color: lightcyan;
+                color: rgb(255, 250, 250);  
+               
+            }
+            body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://images.pexels.com/photos/2165642/pexels-photo-2165642.jpeg');
+            background-size: cover;
+            filter: blur(10px); /* Adjust the px value for more or less blur */
+            -webkit-filter: blur(10px); /* For Safari */
+            z-index: -1;
+            }
+            .center {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            h2{
+                text-align: center;
+                color: white ;
+            }
+            
+        </style>
+        </head>
+        <body>
+            <div style="background-color: rgb(0, 109, 128);">
+                <div style="float: left"></div>
+            <img src="https://images.pexels.com/photos/7421198/pexels-photo-7421198.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style="height:50px"> 
+            <div style="font-size: x-large;">
+                <b>Grain Quest</b>
+            </div>
+            </div>
+        <h1>
+           <b>RICE GRAIN CLASSIFICATION AND QUALITY ANALYSIS</b> 
+        </h1>
+        <img  src="https://images.pexels.com/photos/8108069/pexels-photo-8108069.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="RICE" class="center" style="width: 30%;">
+        <br>
+        <br>
+        <h2> Result : {{prediction}} </h2>
+        
+</html>
