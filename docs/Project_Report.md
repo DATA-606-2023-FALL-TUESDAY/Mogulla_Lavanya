@@ -10,7 +10,7 @@
 
 [Github]: https://github.com/lavanyamogulla
 [Linkedin]: https://www.linkedin.com/in/lavanya-mogulla/
-[Powerpoint]: 
+[Powerpoint]: https://github.com/DATA-606-2023-FALL-TUESDAY/Mogulla_Lavanya/blob/main/src/Presentation.pptx
 
  ## 2. Background
 Image processing and computer vision applications in agriculture are of interest due to their non-destructive evaluation and low cost compared to manual methods. Rice is a globally produced grain with numerous genetic varieties, distinguished by traits like texture, shape, and color. A study in Turkey examined Arborio, Basmati, Ipsala, Jasmine, and Karacadag rice varieties to classify and assess seed quality based on these distinguishing features, which are essential for both agriculture and culinary purposes. ANN and DNN are used to model feature datasets, while a CNN is used for image datasets. Classification will be conducted, and statistical metrics including sensitivity, specificity, prediction, F1 score, accuracy, false positive rate, and false negative rate will be computed from the confusion matrix values. 
@@ -51,7 +51,7 @@ The model also assesses rice grain quality by analyzing size, color, and conditi
 - This approach was adopted to ensure efficient processing and analysis within the available computational constraints.
 - In extending the scope of this project beyond mere rice classification, we've incorporated a crucial element of quality assessment to offer a more comprehensive and practical analysis of rice varieties.
 
-<img src= 
+<img src= "https://github.com/DATA-606-2023-FALL-TUESDAY/Mogulla_Lavanya/blob/main/data/Data.png">
 
 **Data Visualization**
 
@@ -61,7 +61,7 @@ The model also assesses rice grain quality by analyzing size, color, and conditi
 
 **Value Counts for each type of Rice after Quality assessment**
 
-<img src= 
+<img src= "https://github.com/DATA-606-2023-FALL-TUESDAY/Mogulla_Lavanya/blob/main/data/Value%20counts%20for%20each%20type%20of%20rice.png">
 
 ## 5. Model Training
 
@@ -94,7 +94,7 @@ This is a series of steps utilized to develop a model capable of categorizing im
 
 **Model Architecture**
 
-<img src = 
+<img src = "https://github.com/DATA-606-2023-FALL-TUESDAY/Mogulla_Lavanya/blob/main/data/Architecture.png">
 
 **InceptionV3 Model**
 
@@ -115,6 +115,8 @@ It converts pooled feature maps into a single vector, preparing for fully connec
 - **Output Layer (Dense):**
 This is the final layer with softmax activation for multi-class classification.
 
+<img src= "https://github.com/DATA-606-2023-FALL-TUESDAY/Mogulla_Lavanya/blob/main/data/Model.png">
+
 - In addition to tensorflow, pandas, numpy, keras, plotly are used for this project.
 
   **Pandas:** Pandas is a powerful data manipulation and analysis library for Python, providing extensive capabilities for data preparation, cleaning, and exploration with its DataFrame object.
@@ -129,11 +131,11 @@ This is the final layer with softmax activation for multi-class classification.
 
 - **Accuracy v/s Epoch Plot**
 
-  <img src
+  <img src= "https://github.com/DATA-606-2023-FALL-TUESDAY/Mogulla_Lavanya/blob/main/data/Accuracy.png">
 
 - **Loss v/s Epoch Plot**
 
-  <img src
+  <img src= "https://github.com/DATA-606-2023-FALL-TUESDAY/Mogulla_Lavanya/blob/main/data/Loss.png">
 
   ## 6. Application of Trained Model
 
@@ -145,9 +147,9 @@ This is the final layer with softmax activation for multi-class classification.
   
   **3. home.html:** This HTML file serves as the landing page of your Flask application. It generally contains the user interface for inputting data into the model. It's designed to be user-friendly and intuitive, guiding users on how to interact with the application.
 
-<img src = 
+<img src= "https://github.com/DATA-606-2023-FALL-TUESDAY/Mogulla_Lavanya/blob/main/data/Home%20Page.png">
 
-<img src=
+<img src= "https://github.com/DATA-606-2023-FALL-TUESDAY/Mogulla_Lavanya/blob/main/data/Demo%20Page.png">
 
 ## 7. Conclusion
 
