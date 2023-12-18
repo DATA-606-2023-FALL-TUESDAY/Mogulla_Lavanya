@@ -4,7 +4,6 @@
 
 ## 1. Project Title: Rice Grain Classification and Analysis for Quality Assurance.
 - Prepared for UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
-- **Author Name** - Lavanya Mogulla
 - [Github]
 - [LinkedIn] 
 - [Powerpoint]
