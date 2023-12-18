@@ -1,16 +1,19 @@
 # Project Report
 
+## Lavanya Mogulla, 3rd Semester
+
 ## 1. Project Title: Rice Grain Classification and Analysis for Quality Assurance.
 - Prepared for UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
 - **Author Name** - Lavanya Mogulla
 - [Github]
 - [LinkedIn] 
 - [Powerpoint]
-- **Youtube Video** - In Progress
+- [Youtube Video]
 
 [Github]: https://github.com/lavanyamogulla
 [Linkedin]: https://www.linkedin.com/in/lavanya-mogulla/
 [Powerpoint]: https://github.com/DATA-606-2023-FALL-TUESDAY/Mogulla_Lavanya/blob/main/src/Presentation.pptx
+[Youtube Video]: https://www.youtube.com/watch?v=4uPEvulaA3Q
 
  ## 2. Background
 Image processing and computer vision applications in agriculture are of interest due to their non-destructive evaluation and low cost compared to manual methods. Rice is a globally produced grain with numerous genetic varieties, distinguished by traits like texture, shape, and color. A study in Turkey examined Arborio, Basmati, Ipsala, Jasmine, and Karacadag rice varieties to classify and assess seed quality based on these distinguishing features, which are essential for both agriculture and culinary purposes. ANN and DNN are used to model feature datasets, while a CNN is used for image datasets. Classification will be conducted, and statistical metrics including sensitivity, specificity, prediction, F1 score, accuracy, false positive rate, and false negative rate will be computed from the confusion matrix values. 
